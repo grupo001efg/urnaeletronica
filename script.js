@@ -40,7 +40,7 @@ document.getElementById('btn-confirma').addEventListener('click', () => {
     if (voto === 'Branco') {
         votos.branco++;
         alert('Voto em branco confirmado!');
-    } else if (voto.length === 2) {
+    } else if (voto.length === 3) {
         if (candidatos[voto]) {
             votos[voto]++;
             alert(`Voto em ${candidatos[voto]} confirmado!`);
