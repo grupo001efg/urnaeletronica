@@ -16,7 +16,7 @@ let voto = '';
 
 document.querySelectorAll('.btn-numero').forEach((button) => {
     button.addEventListener('click', () => {
-        if (voto.length < 2) {
+        if (voto.length < 3) {
             voto += button.getAttribute('data-numero');
             document.getElementById('num-candidato').value = voto;
             mostrarCandidato(voto);
