@@ -1,7 +1,7 @@
 const candidatos = {
-    12: "Candidato A",
-    34: "Candidato B",
-    56: "Candidato C"
+    12: "Arroz com Carne",
+    34: "Pizza e coca",
+    56: " Bolo e todinho",
 };
 
 const votos = {
