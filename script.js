@@ -1,13 +1,13 @@
 const candidatos = {
-    12: "Arroz com Carne",
-    34: "Pizza e coca",
-    56: " Bolo e todinho",
+    "001": "Arroz com Carne",
+    002: "Pizza e coca",
+    003: " Bolo e todinho",
 };
 
 const votos = {
-    12: 0,
-    34: 0,
-    56: 0,
+    "001": 0,
+    002: 0,
+    003: 0,
     branco: 0,
     nulo: 0
 };
@@ -57,7 +57,7 @@ document.getElementById('btn-confirma').addEventListener('click', () => {
 document.getElementById('btn-resultados').addEventListener('click', () => {
     const resultadoDiv = document.getElementById('resultado-votos');
     resultadoDiv.innerHTML = `
-        <p>Candidato A (12): ${votos[12]} votos</p>
+        <p>Candidato A (001): ${votos["001"]} votos</p>
         <p>Candidato B (34): ${votos[34]} votos</p>
         <p>Candidato C (56): ${votos[56]} votos</p>
         <p>Votos em Branco: ${votos.branco}</p>
